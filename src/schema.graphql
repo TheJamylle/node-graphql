@@ -1,6 +1,6 @@
 type Query {
   info: String!
-  posts: [Post!]!
+  posts(filter: String): [Post!]!
 }
   
 type Mutation {
