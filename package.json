@@ -1,0 +1,17 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@prisma/cli": "2.8.1",
+    "@prisma/client": "2.8.1",
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "^1.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4"
+  }
+}
